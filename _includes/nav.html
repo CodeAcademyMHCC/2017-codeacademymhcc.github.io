@@ -1,0 +1,32 @@
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+      <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/"><i class="fa fa-code"></i> {{ site.title }}</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li>
+            <a class="nav-link" href="/tools">Tools</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="resources-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quick Links</a>
+            <div class="dropdown-menu" aria-labelledby="resources-dropdown">
+              <a class="dropdown-item" href="https://github.com/codeAcademyMHCC"><i class="fa fa-github"></i> GitHub </a>
+              <a class="dropdown-item" href="https://teamtreehouse.com/"><i class="fa fa-treehouse"></i> Treehouse</a>
+              <a class="dropdown-item" href="http://codepen.io/"><i class="fa fa-codepen"></i> CodePen</a>
+            </div>
+          </li>
+        </ul>
+        <div id="search-results-container" class='dropdown'>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 form-control" type="search" id="search-input" placeholder="Search...">
+          </form>
+          <ul id="search-results" class="dropdown-menu bd-search-results">
+          </ul>
+        </div>
+        
+      </div>
+      </div>
+    </nav>

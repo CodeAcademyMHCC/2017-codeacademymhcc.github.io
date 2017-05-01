@@ -1,0 +1,30 @@
+---
+search_exclude: true
+---
+[
+  {% for post in site.posts %}
+    {% if post.title and search_exclude != true %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } 
+    {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+  {% for post in site.pages %}
+    {% if post.title and search_exclude != true %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endif %} 
+  {% endfor %}
+  {}
+]
