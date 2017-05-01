@@ -4,8 +4,28 @@ search_exclude: true
 
 body {
   padding-top:75px;
+  color:#556270;
+}
+
+a {
+  color:#900;
+  &:hover {
+    color:darken(#900,20%);
+  }
+}
+
+.navbar-brand i.fa {
+  color:#a00;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family:Inconsolata;
+}
+
+.reference-nav-bar {
+  margin-bottom:1em;
+}
+
+.reference-tab-content dl dd {
+  margin-bottom:1.5em;
 }

@@ -1,0 +1,65 @@
+---
+layout: default
+title: Reference
+permalink: /reference
+---
+
+
+<h1>Reference</h1>
+
+<p>
+    These websites that are great technical references and resources for front-end web development.
+</p>
+
+
+<!-- Tab panes -->
+<ul class="nav nav-tabs reference-nav-bar" role="tablist">
+    <li class="nav-item">
+      <a class= "nav-link active" href='#html-references' data-toggle="tab" role="tab">HTML</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#css-references'  data-toggle="tab" role="tab">CSS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#javascript-references'  data-toggle="tab" role="tab">JavaScript</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#general-references'  data-toggle="tab" role="tab">General Reference</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#reading-references'  data-toggle="tab" role="tab">Further Reading</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#books'  data-toggle="tab" role="tab">Books</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#framework-references'  data-toggle="tab" role="tab">Frameworks</a>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content reference-tab-content">
+  <div class="tab-pane active" id="html-references" role="tabpanel">
+    {% include reference/html.html %}
+  </div>
+  <div class="tab-pane" id="css-references" role="tabpanel">
+    {% include reference/css.html %}
+  </div>
+  <div class="tab-pane" id="javascript-references" role="tabpanel">
+    {% include reference/javascript.html %}
+  </div>
+  <div class="tab-pane" id="general-references" role="tabpanel">
+    {% include reference/general.html %}
+  </div>
+  <div class="tab-pane" id="reading-references" role="tabpanel">
+    {% include reference/reading.html %}
+  </div>
+  <div class="tab-pane" id="books" role="tabpanel">
+    {% include reference/books.html %}
+  </div>
+  <div class="tab-pane" id="framework-references" role="tabpanel">
+    {% include reference/frameworks.html %}
+  </div>
+</div>
+
+    
