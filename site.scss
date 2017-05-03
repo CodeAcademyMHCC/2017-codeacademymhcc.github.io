@@ -29,3 +29,31 @@ h1,h2,h3,h4,h5,h6 {
 .reference-tab-content dl dd {
   margin-bottom:1.5em;
 }
+
+
+/* Progress Page
+  ====================*/
+
+.badge-icon {
+  margin-right:.5em;
+}
+
+.in-progress {
+  opacity:.5;
+  filter:grayscale(1);
+}
+
+.student-progress-section {
+  border-bottom:1px rgba(0,0,0,.1) solid;
+  padding:2em 0;
+  
+  .student-title {
+    font-weight:bold;
+    border-bottom:3px rgba(0,0,0,.2) solid;
+    width:auto;
+    margin:0 auto .5em auto;
+    padding:0 0 .25em 0;
+    display:inline-block;
+  }
+  
+}

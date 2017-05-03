@@ -15,7 +15,7 @@ These courses from Treehouse's [Digital Literacy library](https://teamtreehouse.
 - [How the Web Works](http://teamtreehouse.com/library/how-the-web-works)
 - [Computer Basics](http://teamtreehouse.com/library/computer-basics)
 - [How the Internet Works](https://teamtreehouse.com/library/how-the-internet-works)
-- <s>HTTP: Do you GET it?</s>
+- [HTTP: Do you GET it?](https://teamtreehouse.com/library/http-do-you-get-it)
 
 
 ## Working with HTML & CSS
@@ -23,8 +23,7 @@ These courses from Treehouse's [Digital Literacy library](https://teamtreehouse.
 For this segment we'll be learning HTML & CSS — the backbone of presenting information on the web.
 
 - [Introduction to HTML and CSS](https://teamtreehouse.com/library/introduction-to-html-and-css)
-- [How to Make a Website](http://teamtreehouse.com/library/how-to-make-a-website)
 - [HTML](http://teamtreehouse.com/library/html)
 - [CSS Basics](http://teamtreehouse.com/library/css-basics)
-
+- [How to Make a Website](http://teamtreehouse.com/library/how-to-make-a-website)
 
