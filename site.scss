@@ -5,6 +5,10 @@ search_exclude: true
 body {
   padding-top:75px;
   color:#556270;
+  
+  &.fluid {
+    padding-top:50px;
+  }
 }
 
 a {
@@ -28,6 +32,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .reference-tab-content dl dd {
   margin-bottom:1.5em;
+}
+
+.nav-link:hover {
+  i.fa {
+    color:#a00;
+  }
 }
 
 
@@ -56,4 +66,8 @@ h1,h2,h3,h4,h5,h6 {
     display:inline-block;
   }
   
+}
+
+#codepen-classroom {
+  height: calc(100vh - 50px);
 }
