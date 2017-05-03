@@ -7,7 +7,7 @@ permalink: /syllabus
 # Syllabus
 ***
 
-## Week 1 (May 1st, 2017)
+## Week 1 (May 1—5, 2017)
 ### Getting Started
 
 These courses from Treehouse's [Digital Literacy library](https://teamtreehouse.com/library/topic:digital-literacy) are a good place to familiarize ourselves with the platform while also exploring fundamental concepts underlying web development.
