@@ -10,7 +10,7 @@ jQuery(function($){
           counter++;          
           if (location.search === '?debug') console.log(response);
 
-          student_section_html += "<div class='text-center student-progress-section col-md-6'><h3 class='student-title'>"+response.name+"</h3>";
+          student_section_html += "<div class='text-center student-progress-section col-md-3'><h3 class='student-title'>"+response.name+"</h3>";
         
           // Find out all the badges they have
           var student = {
