@@ -15,7 +15,7 @@ These courses from Treehouse's [Digital Literacy library](https://teamtreehouse.
 - [How the Web Works](http://teamtreehouse.com/library/how-the-web-works)
 - [Computer Basics](http://teamtreehouse.com/library/computer-basics)
 - [How the Internet Works](https://teamtreehouse.com/library/how-the-internet-works)
-- [HTTP: Do you GET it?](https://teamtreehouse.com/library/http-do-you-get-it)
+- <s>HTTP: Do you GET it?</s>
 
 
 ## Working with HTML & CSS
