@@ -71,3 +71,14 @@ h1,h2,h3,h4,h5,h6 {
 #codepen-classroom {
   height: calc(100vh - 50px);
 }
+
+.nav-link.highlight {
+  background:#a00;
+  color:#fff;
+  &:hover {
+    background:#800;
+    .fa {
+      color:#fff;
+    }
+  }
+}
