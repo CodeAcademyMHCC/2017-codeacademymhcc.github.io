@@ -27,3 +27,8 @@ For this segment we'll be learning HTML & CSS — the backbone of presenting inf
 - <strong>FreeCodeCamp:</strong> [HTML & CSS](https://www.freecodecamp.com/map-aside#nested-collapseHTML5andCSS). This is outside of Treehouse, but serves as a good, comprehensory review of HTML & CSS before diving into the segment below. <small class="text-info">(Added on May 8th)</small>
 - [How to Make a Website](http://teamtreehouse.com/library/how-to-make-a-website)
 
+***
+
+## Slides
+
+- [Keyboard Shortcuts](https://codeacademymhcc.github.io/slides/keyboard-shortcuts/#/)
