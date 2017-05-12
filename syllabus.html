@@ -16,38 +16,27 @@ permalink: /syllabus
   </div>
 </div>
 
-
-<!-- Tab panes -->
-<!-- <ul class="nav nav-tabs reference-nav-bar" role="tablist">
-    <li class="nav-item">
-      <a class= "nav-link active" href='#html-css' data-toggle="tab" role="tab">HTML &amp; CSS</a>
-    </li>
-    <li>
-      <a class="nav-link" href="#slides"><i class="fa fa-slideshare"></i> Slides</a>
-    </li>
-</ul> -->
-
 <ul class="nav nav-tabs reference-nav-bar" role="tablist">
     <li class="nav-item">
-      <a class= "nav-link active" href='#html-css' data-toggle="tab" role="tab"><i class="fa fa-html5"></i> HTML &amp; CSS</a>
+      <a class= "nav-link" href='#html-css' data-toggle="tab" role="tab"><i class="fa fa-html5"></i> HTML &amp; CSS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href='#javascript'  data-toggle="tab" role="tab"><i class="fa fa-cogs"></i> JavaScript</a>
+      <a class="nav-link active" href='#javascript'  data-toggle="tab" role="tab"><i class="fa fa-cogs"></i> JavaScript</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link highlight" href='#slides'  data-toggle="tab" role="tab"><i class="fa fa-slideshare"></i> Slides</a>
+      <a class="nav-link highlight-slides" href='#slides'  data-toggle="tab" role="tab"><i class="fa fa-slideshare"></i> Slides</a>
     </li>
 </ul>
 
 
 <!-- Tab panes -->
 <div class="tab-content reference-tab-content">
-  <div class="tab-pane active" id="html-css" role="tabpanel">
+  <div class="tab-pane" id="html-css" role="tabpanel">
     {% include syllabus/html-css.html %}
   </div>
   
-  <div id="javascript" class="tab-pane" role="tabpanel">
-    <h2>Coming Soon!</h2>
+  <div id="javascript" class="tab-pane active" role="tabpanel">
+        {% include syllabus/javascript.html %}
   </div>
 
   <div class="tab-pane" id="slides" role="tabpanel">

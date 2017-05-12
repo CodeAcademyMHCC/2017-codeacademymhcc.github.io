@@ -14,6 +14,12 @@
 
     <div class="container-fluid">
       <div class="starter-template">
+        
+        <h1 class="text-center">{{ page.title }}</h1>
+        <div class="text-center">
+          {{ content}}          
+        </div>
+
        <section id='students' class='row'>         
          <div class="col">
            <h2 class="text-center">
@@ -59,7 +65,7 @@
       $('#search-results-container').removeClass("show");      
     });
     </script>
-    <script src='/js/progress.data.js'></script>
+    <script src='/js/{{ page.data }}'></script>
     <script src='/js/progress.js'></script>
   
   </body>
