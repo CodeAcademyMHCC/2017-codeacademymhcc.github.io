@@ -24,6 +24,9 @@ permalink: /syllabus
       <a class="nav-link active" href='#javascript'  data-toggle="tab" role="tab"><i class="fa fa-cogs"></i> JavaScript</a>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href='#github'  data-toggle="tab" role="tab"><i class="fa fa-github"></i> GitHub</a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link highlight-slides" href='#slides'  data-toggle="tab" role="tab"><i class="fa fa-slideshare"></i> Slides</a>
     </li>
 </ul>
@@ -32,11 +35,27 @@ permalink: /syllabus
 <!-- Tab panes -->
 <div class="tab-content reference-tab-content">
   <div class="tab-pane" id="html-css" role="tabpanel">
-    {% include syllabus/html-css.html %}
+    <div class="row">
+      <div class="col-md-8">
+        {% include syllabus/html-css.html %}
+      </div>
+    </div>
   </div>
   
   <div id="javascript" class="tab-pane active" role="tabpanel">
+    <div class="row">
+      <div class="col-md-8">
         {% include syllabus/javascript.html %}
+      </div>  
+    </div>
+  </div>
+
+  <div id="github" class="tab-pane" role="tabpanel">
+    <div class="row">
+      <div class="col-md-8">
+        {% include syllabus/github.html %}
+      </div>
+    </div>
   </div>
 
   <div class="tab-pane" id="slides" role="tabpanel">

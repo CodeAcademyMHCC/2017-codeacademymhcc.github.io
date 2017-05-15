@@ -47,8 +47,7 @@ jQuery(function($){
           student_section_html += "</div>";
           
           if (counter === students.length) student_section.html(student_section_html); 
-          console.log("Updated student process at " + Date.now());                                      
-          
+          console.log("Updated student process at " + Date.now());                                                
         }
       });    
     }  

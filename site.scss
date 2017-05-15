@@ -74,12 +74,59 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav-link.highlight-slides {
   opacity:.5;
-//  background:#a00;
-//  color:#fff;
   right:2em;
   position:absolute;
   &.active {
     opacity:1;
   }
+}
 
+/* Progress Landing Page
+==========================*/
+
+#treehouse-points {
+  margin:3em 0;
+  
+  .student {
+    width:100%;
+    background:#eee;
+    color:rgba(0,0,0,0);
+    padding:.3em .5em;
+    margin:.25em 0;
+    transition:all 5000ms;
+    height:2em;
+    position:relative;
+    
+    .name {
+      position:absolute;
+      left:.5em;
+    }
+    
+    .runner {
+      height:1.25em;
+      width:auto;
+      position: absolute;
+      right:0;
+      top:50%;
+      transform: translate(120%,-50%);
+    }
+
+    .score {
+      opacity:0;
+      transition:all 3000ms;
+      float:right;
+      color:#fff;
+      position:absolute;
+      right:1em;
+    }
+    
+    &.shown {
+      color:rgba(0,0,0,1);
+      background:#cddc39;
+      
+      .score{
+        opacity:1;
+      }
+    }
+  }
 }
