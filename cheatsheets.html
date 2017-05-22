@@ -1,0 +1,108 @@
+---
+layout: default
+title: Cheatsheet
+permalink: /cheatsheets
+---
+
+<h1>Cheatsheets</h1>
+
+<div class="row">
+  <div class="col col-md-8">
+    <p>
+        This page contains quick reference "cheatsheets" we can use as we go along.
+    </p>
+</div>
+</div>
+
+
+<!-- Tab panes -->
+<ul class="nav nav-tabs reference-nav-bar" role="tablist">
+    <li class="nav-item">
+      <a class= "nav-link active" href='#console' data-toggle="tab" role="tab">Console</a>
+    </li>
+    <li class="nav-item">
+      <a class= "nav-link" href='#git' data-toggle="tab" role="tab">Git</a>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content reference-tab-content">
+  <div class="tab-pane active" id="console" role="tabpanel">
+    <dl>
+      <dt><code>ls</code><dt>      
+      <dd>
+        List the contents of a directory. Example: <code>ls</code>. If you want to show all files ending with a specific extension you can specify that like so: <code>ls *.html</code> or vice-versa <code>ls index.*</code>
+      </dd>
+      <dt><code>cd</code><dt>      
+      <dd>Change the working directory. Example: <code>cd css</code></dd>
+      <dt><code>mv</code><dt>      
+      <dd>Move a file from one location to another.Example: <code>mv style.css css/style.css</code></dd>
+
+      <dt><code>mkdir</code><dt>      
+      <dd>Create a new directory. Example: <code>mkdir css</code></dd>
+
+      <dt><code>rm</code><dt>
+      <dd>Remove a file. Example: <code>rm style.css</code></dd>
+
+      <dt><code>pwd</code><dt>
+      <dd>Show the current working directory. Example: <code>pwd</code> &rarr; <code>/home/user/public_html/</code></dd>
+      
+      <dt><code>clear</code><dt>
+      <dd>Clear the console screen</dd>      
+    </dl>
+    
+    <p>
+      Find more cheat sheets and references here:
+    </p>
+    
+    <ul>
+      <li><a href="https://files.fosswire.com/2007/08/fwunixref.pdf">Unix/Linux Command Reference</a></li>
+      <li><a href="http://www.rain.org/~mkummel/unix.html">Treebeard's Unix Cheat Sheet</a></li>
+      <li><a href="http://www.unixguide.net/linux/linuxshortcuts.shtml">Linux Shortcuts and Comands</a></li>
+
+    </ul>
+  </div>
+  <div class="tab-pane" id="git" role="tabpanel">
+    <dl>
+      <dt><code>git init</code></dt>
+      <dd>Initialize a new git repository in your current working directory.</dd>
+      <dt><code>git clone user@server:repository-path .</code></dt>
+      <dd>Clone a remote URL into the current working directory, If the "." is omitted it clones the repository into a new directory relative the one you are in.</dd>
+      <dt><code>git add .</code></dt>
+      <dd>Stage all untracked files for your next commit. You can optionally name specific files and folders to add. </dd>
+      <dt><code>git commit -m "commit message"</code></dt>
+      <dd>Commit staged files into the repository history.</dd>
+      
+      <dt><code>git branch</code></dt>
+      <dd>Show the current branch you're on.</dd>
+      
+      <dt><code>git checkout (branch)</code></dt>
+      <dd>Checkout the specific branch. Adding a <code>-b</code> flag will create the branch if it does not already exist.</dd>
+      
+      <dt><code>git push origin (branch)</code></dt>
+      <dd>Push your committed change to the origin remote branch</dd>
+
+      <dt><code>git fetch</code></dt>
+      <dd>Brings your local branches up to date with the remote branches.</dd>
+
+      <dt><code>git pull</code></dt>
+      <dd>Brings brings remote changes into your currently checked out branch.</dd>
+
+    </dl>
+    
+    <p>
+      More information:
+    </p>
+    <ul>
+      <li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet</a></li>
+    </ul>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
