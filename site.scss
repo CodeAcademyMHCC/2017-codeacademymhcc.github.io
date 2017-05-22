@@ -130,3 +130,17 @@ h1,h2,h3,h4,h5,h6 {
     }
   }
 }
+
+
+/* Speakers
+=======================*/
+
+details[open] summary{
+  margin-bottom:1em;
+  color:#000;
+}
+
+details summary {
+  outline:none;
+  cursor:pointer;
+}
