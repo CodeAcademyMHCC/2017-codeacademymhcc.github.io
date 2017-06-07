@@ -61,14 +61,20 @@ var tracking = {
     cssClass: 'interactive-web-pages',
     badges: [{
       url: "",
-      icon: 'https://achievement-images.teamtreehouse.com/bagdes-javascript-interactiveweb-stage-12.png'
+      icon: 'https://achievement-images.teamtreehouse.com/badges_JavaScript_DOM_Stage-41.png'
     }, {
       url: "",
-      icon: 'https://achievement-images.teamtreehouse.com/bagdes-javascript-interactiveweb-stage-13.png'
+      icon: 'https://achievement-images.teamtreehouse.com/badges_JavaScript_DOM_Stage-42.png'
     }, {
       url: "",
-      icon: 'https://achievement-images.teamtreehouse.com/bagdes-javascript-interactiveweb-stage-14.png'
-    }]
+      icon: 'https://achievement-images.teamtreehouse.com/badges_JavaScript_DOM_Stage-43.png'
+    }, {
+      url: "",
+      icon: 'https://achievement-images.teamtreehouse.com/badges_JavaScript_DOM_Stage-44.png'
+    }, {
+      url: "",
+      icon: 'https://achievement-images.teamtreehouse.com/badges_JavaScript_DOM_Stage-45.png'
+    },]
   },
 
   'jQuery Basics': {
