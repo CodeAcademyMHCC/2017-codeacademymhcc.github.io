@@ -145,3 +145,23 @@ details summary {
   outline:none;
   cursor:pointer;
 }
+
+/* General
+==========================*/
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+ol li {
+  margin:1em 0;
+  img {
+    margin:1em 0;
+  } 
+}
+
+pre  {
+  padding:1em;
+  background:#eee;
+}
