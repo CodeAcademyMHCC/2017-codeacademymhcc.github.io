@@ -2,7 +2,6 @@
 layout: page
 title: Webfonts with Google Fonts and Font Awesome
 permalink: /lessons/webfonts
-search_exclude: true
 ---
 
 # Webfonts
