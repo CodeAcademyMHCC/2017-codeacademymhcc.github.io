@@ -12,7 +12,7 @@ These steps below can be referenced when beginning any of the projects listed be
 - [Adding Bootstrap to your project](/projects/bootstrap)
 - [Adding webfonts to your project](/projects/webfonts)
 - [Adding jQuery to your project](/projects/jquery)
-- [Console &amp; Git Cheatsheets](/cheatsheets)
+- [Console &amp; Git Cheatsheets](/projects/cheatsheets)
 
 
 ##  Specific Projects
