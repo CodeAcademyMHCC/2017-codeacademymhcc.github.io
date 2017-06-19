@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Webfonts with Google Fonts and Font Awesome
-permalink: /lessons/webfonts
+title: Working with Webfonts via Google Fonts and Font Awesome
+permalink: /projects/webfonts
 ---
 
-# Webfonts
+[< Back to projects](/projects)
+
+# Working with Webfonts
 
 For a long time web designers were limited to "web-safe" fonts when it came to making typographical choices for their projects. Previously browsers could only use whatever fonts were available on the user's operating system.
 
