@@ -19,7 +19,7 @@ These steps below can be referenced when beginning any of the projects listed be
 
 
 - Alarm Clock
-- Simple Calculator
+- [Simple Calculator](/projects/build-a-calculator)
 - Reverse a String
 - Pig Latin / Simple Encryption
 - Palindrome Checker
