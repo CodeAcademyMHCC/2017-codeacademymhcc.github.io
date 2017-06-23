@@ -45,7 +45,7 @@ Let's strat with this approach for our interface:
 Here are the steps we'll need to achieve in our JavaScript:
 
 - Listen for when the "Reverse String" button is pressed
-- Take the contenst of the text input and capture it in a string
+- Take the contents of the text input and capture it in a string
 - Reverse the contents of that string
 - Display the newly reversed contents into the `<div>` we've created with an id of `display`.
   
@@ -68,7 +68,7 @@ Here are the steps we'll need to achieve in our JavaScript:
 
 ## Extra Credit
 
-- Can we give the user multiple options to maniuplate the text?
+- Can we give the user multiple options to manipulate the text?
 - Can we create a nicer layout that adapts itself to mobile?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
 - Can we check to make sure the content isn't empty before running out function?
