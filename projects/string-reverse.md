@@ -32,7 +32,7 @@ Let's strat with this approach for our interface:
     </div>  
   
     <div>
-      <input type="button" id="doAction" value="Go" />
+      <input type="button" id="doAction" value="Reverse Word" />
     </div>
   
     <div id="display">
@@ -44,7 +44,7 @@ Let's strat with this approach for our interface:
 
 Here are the steps we'll need to achieve in our JavaScript:
 
-- Listen for when the "Go" button is pressed
+- Listen for when the "Reverse String" button is pressed
 - Take the contenst of the text input and capture it in a string
 - Reverse the contents of that string
 - Display the newly reversed contents into the `<div>` we've created with an id of `display`.
@@ -71,3 +71,4 @@ Here are the steps we'll need to achieve in our JavaScript:
 - Can we give the user multiple options to maniuplate the text?
 - Can we create a nicer layout that adapts itself to mobiel?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
+- Can we check to make sure the content isn't empty before running out function?
