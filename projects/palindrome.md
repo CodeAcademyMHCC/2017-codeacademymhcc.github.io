@@ -10,7 +10,7 @@ permalink: /projects/palindrome
 
 We're going to build a simple project that accepts a string from the user and determines whether or not it's a palindrome. A palindrome is a word that is spelled the same way forwards as it is backwards, like **madam**, **racecar**, **noon** or **level**.
 
-## Getting Started
+## Create the Interface
 
 - [Follow these steps](/projects/starter) to create the initial GitHub repository, clone the project into CodeAnywhere and add the starting HTML, CSS and JavaScript files
 - [Follow these steps](/projects/jquery) to use jQuery with your project
@@ -44,7 +44,7 @@ Our interface will need:
 The input and button are self-explanatory, but the `<ul>` results element will contain a running list of all the words we've checked to see were palindromes.
 
   
-## Creating the logic
+## Creating the Logic
 
 Here are the steps we'll need to take in our JavaScript:
 
@@ -89,7 +89,7 @@ Here are the steps we'll need to take in our JavaScript:
 
 ## Extra Credit
 
-- Can we create a nicer layout that adapts itself to mobiel?
+- Can we create a nicer layout that adapts itself to mobile?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
 - Can we display the results different based on whether or not it **is** a palindrome?
 - Can we check to make sure the content isn't empty before running our function?

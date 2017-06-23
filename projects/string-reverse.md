@@ -10,13 +10,13 @@ permalink: /projects/string-reverse
 
 We're going to make a simple page that accepts a string form the user and returns it in reverse.
 
-## Getting started
+## Create the Interface
 
 - [Follow these steps](/projects/starter) to create the initial GitHub repository, clone the project into CodeAnywhere and add the starting HTML, CSS and JavaScript files
 - [Follow these steps](/projects/jquery) to use jQuery with your project
 
 
-## Create the interface
+## Create the Interface
 
 Our interface is going to be quite simple. We'll only need:
 
@@ -40,7 +40,7 @@ Let's strat with this approach for our interface:
     </div>
   ```
  
-## Creating the logic
+## Creating the Logic
 
 Here are the steps we'll need to achieve in our JavaScript:
 
@@ -69,6 +69,6 @@ Here are the steps we'll need to achieve in our JavaScript:
 ## Extra Credit
 
 - Can we give the user multiple options to maniuplate the text?
-- Can we create a nicer layout that adapts itself to mobiel?
+- Can we create a nicer layout that adapts itself to mobile?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
 - Can we check to make sure the content isn't empty before running out function?

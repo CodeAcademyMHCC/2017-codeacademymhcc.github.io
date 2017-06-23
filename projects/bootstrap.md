@@ -14,7 +14,7 @@ Go to the official Bootstrap website here:
 
 [getbootstrap.com](http://getbootstrap.com/)
 
-Click on the "Getting Started" link in the menu and scroll to the "Bootstrap CDN" section. You should see some  code that links to the compiled and minified version of the CSS, looking like this:
+Click on the "Create the Interface" link in the menu and scroll to the "Bootstrap CDN" section. You should see some  code that links to the compiled and minified version of the CSS, looking like this:
 
 ```
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

@@ -24,7 +24,7 @@ var tracks = {
 }
 
 var tracking = {
-  "Getting Started": {
+  "Create the Interface": {
     url: 'http://teamtreehouse.com/library/how-the-web-works',
     cssClass: 'computer-basics',
     badges:[

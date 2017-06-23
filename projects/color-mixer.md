@@ -10,7 +10,7 @@ permalink: /projects/color-mixer
 
 We're going to build a simple project that mixes three colors (red, green and blue) together on the screen to create a new color.
 
-## Getting Started
+## Create the Interface
 
 - [Follow these steps](/projects/starter) to create the initial GitHub repository, clone the project into CodeAnywhere and add the starting HTML, CSS and JavaScript files
 - [Follow these steps](/projects/jquery) to use jQuery with your project
@@ -47,7 +47,7 @@ Our interface will need:
   ```
 
   
-## Creating the logic
+## Creating the Logic
 
 Here are the steps we'll need to take in our JavaScript:
 
@@ -55,11 +55,33 @@ Here are the steps we'll need to take in our JavaScript:
 - Take the contents of the red, green and blue fields and calculate a new color based on these
 - Display the mixed color in the `<div>` element with the `mixedColor` id.
  
+ Here is one approach:
+ 
+ ```
+     var $red = $("#red"),
+       $green = $("#green"),
+       $blue = $("#blue"),
+       $button = $("#doAction"),
+       $mixedColor = $("#mixedColor");
+     
+       $button.on("click", function(){
+         let red = $red.val(),
+             green = $green.val(),
+             blue = $blue.val();
+       
+         let newColor = `rgb(${red}, ${green}, ${blue})`;
+       
+         $mixedColor.css("background-color", newColor);
+       });  
+ 
+ ````
 
 ## Extra Credit
 
-- Can we create a nicer layout that adapts itself to mobiel?
-- Can we incorporate [Boostrap](/projects/bootstrap)?
-- Instead of using RGB can we use HSL or HSV?
+- How can we improve the interface? 
 - Can we replace the text inputs with a [slider](http://thenewcode.com/757/Playing-With-The-HTML5-range-Slider-Input) or some other interface?
+- Can we create a totally custom interface and leverage the `<input type="hidden">` element to store the color value?
+- Instead of using RGB can we use HSL or HSV?
 - Can we leverage `<input type='color'>` instead? How would that change the approach?
+- Can we create a nicer layout that adapts itself to mobile?
+- Can we incorporate [Boostrap](/projects/bootstrap)?

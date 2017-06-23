@@ -10,7 +10,7 @@ permalink: /projects/build-a-calculator
 
 Build a simple web-based calculator that looks and functions like a real-life one.
 
-## Getting Started
+## Create the Interface
 
 - [Follow these steps](/projects/starter) to create the initial GitHub repository, clone the project into CodeAnywhere and add the starting HTML, CSS and JavaScript files
 - [Follow these steps](/projects/jquery) to use jQuery with your project
@@ -106,7 +106,7 @@ We'll use CSS To make the interface look a little bit more like an actual calcul
   
   ```
   
-## Creating the logic
+## Creating the Logic
 
 Here are the things we'll need to keep track of:
 
