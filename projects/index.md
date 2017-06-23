@@ -20,11 +20,11 @@ These steps below can be referenced when beginning any of the projects listed be
 
 - Alarm Clock
 - [Simple Calculator](/projects/build-a-calculator)
-- Reverse a String
+- [Reverse a String](/projects/string-reverse)
+- [Palindrome Checker](/projects/palindrome)
+- [Color Mixer](/projects/color-mixer)
 - Pig Latin / Simple Encryption
-- Palindrome Checker
 - Hangman
-- Color Mixer
 - Image Gallery
 - Slideshow
 - Recipe Generator
