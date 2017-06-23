@@ -49,13 +49,46 @@ The input and button are self-explanatory, but the `<ul>` results element will c
 Here are the steps we'll need to take in our JavaScript:
 
 - Listen for when the "Check Palindrome" button is pressed
-- Take the contenst of the text input and capture it in a string
+- Take the contents of the text input and capture it in a string
 - Check if the word is a palindrome or not and return a yes/no result
 - Display the result in a running log within the `<ul>` element with the `results` id.
+  
+  Here is one approach:
+  
+  ```
+  
+  var $textInput = $("#textInput"),
+      $button = $("#doAction"),
+      $display = $("#display");
+      
+      $button.on("click", function(){
+        let word = $textInput.val(),
+            result = "";
+        
+        if (checkPalindrome(word)) {
+          result = `${word} is a palindrome.`;
+        }else{
+          result = `${word} is NOT palindrome.`;          
+        }
+        
+        $display.append(`<li>${result}</li>`);
+      });  
+      
+      function checkPalindrome(word) {
+        let reversedWord = word.split("").reverse().join("");
+        console.log(word, reversedWord);
+        if (word === reversedWord) {
+          return true;
+        }else{
+          return false;
+        }
+      }
+  
+  ````
  
 
 ## Extra Credit
 
 - Can we create a nicer layout that adapts itself to mobiel?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
-- Can we check to make sure the content isn't empty before running out function?
+- Can we check to make sure the content isn't empty before running our function?
