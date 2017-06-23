@@ -90,6 +90,6 @@ Here are the steps we'll need to take in our JavaScript:
 ## Extra Credit
 
 - Can we create a nicer layout that adapts itself to mobile?
-- Can we incorporate [Boostrap](/projects/bootstrap)?
+- Can we incorporate [Bootstrap](/projects/bootstrap)?
 - Can we display the results different based on whether or not it **is** a palindrome?
 - Can we check to make sure the content isn't empty before running our function?

@@ -84,4 +84,4 @@ Here are the steps we'll need to take in our JavaScript:
 - Instead of using RGB can we use HSL or HSV?
 - Can we leverage `<input type='color'>` instead? How would that change the approach?
 - Can we create a nicer layout that adapts itself to mobile?
-- Can we incorporate [Boostrap](/projects/bootstrap)?
+- Can we incorporate [Bootstrap](/projects/bootstrap)?
