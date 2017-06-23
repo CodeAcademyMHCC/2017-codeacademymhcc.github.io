@@ -60,5 +60,6 @@ Here are the steps we'll need to take in our JavaScript:
 
 - Can we create a nicer layout that adapts itself to mobiel?
 - Can we incorporate [Boostrap](/projects/bootstrap)?
-- Can we check to make sure the content isn't empty before running out function?
-- Can we replace the text input with a [slider](http://thenewcode.com/757/Playing-With-The-HTML5-range-Slider-Input) or some other interface?
+- Instead of using RGB can we use HSL or HSV?
+- Can we replace the text inputs with a [slider](http://thenewcode.com/757/Playing-With-The-HTML5-range-Slider-Input) or some other interface?
+- Can we leverage `<input type='color'>` instead? How would that change the approach?
