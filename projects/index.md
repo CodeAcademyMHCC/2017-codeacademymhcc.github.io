@@ -23,7 +23,7 @@ These steps below can be referenced when beginning any of the projects listed be
 - [Reverse a String](/projects/string-reverse)
 - [Palindrome Checker](/projects/palindrome)
 - [Color Mixer](/projects/color-mixer)
-- Pig Latin / Simple Encryption
+- [Pig Latin](/projects/pig-latin)
 - Hangman
 - Image Gallery
 - Slideshow
