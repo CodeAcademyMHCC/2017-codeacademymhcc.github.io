@@ -6,6 +6,8 @@ permalink: /projects/
 
 # Projects
 
+- [Friday Project](/projects/friday)
+
 These steps below can be referenced when beginning any of the projects listed below on this page.
 
 - [Starting a new static HTML/CSS/JavaScript project](/projects/starter)
